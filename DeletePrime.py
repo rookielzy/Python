@@ -1,0 +1,1 @@
+filter(lamba x:not any(map(lambda y:x%y==0, range(2,x))), range(2,100))
